@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter10-13</title>
+</head>
+
+<body>
+    <script>
+
+        var num1 = +prompt("Enter Number")
+        var num2 = +prompt("Enter Number")
+        if (num1 > num2) {
+            document.write(num1 + "is Greater than" + num2)
+        }
+        else if (num2 > num1) {
+            document.write(num2 + "is Greater than" + num1)
+
+        }
+        else if (num2 == num1) {
+            document.write(num2 + "is equal to" + num1)
+        }
+        else {
+            document.write("Invalid")
+        }
+
+
+        var num1 = +prompt("Enter number")
+        if (num1 > 0) {
+            document.write("Positive Number")
+        }
+        else {
+            document.write("Negative Number")
+
+        }
+
+
+        var num1 = prompt("Enter Letter")
+        if (num1 == "a") {
+            document.write("Vowel")
+        }
+        else if (num1 == "e") {
+            document.write("Vowel")
+        }
+        else if (num1 == "i") {
+            document.write("Vowel")
+        }
+        else if (num1 == "o") {
+            document.write("Vowel")
+        }
+        else if (num1 == "u") {
+            document.write("Vowel")
+        }
+        else {
+            document.write("Counsonant")
+
+        }
+
+
+
+        var greeting;
+        var hour = 13;
+        if (hour < 18) {
+            greeting = "Good day";
+        }
+        else {
+            greeting = "Good evening";
+        }
+
+
+        var pass = "admin"
+        var userInput = prompt("Enter Password")
+        if (pass == userInput) {
+            document.write("Correct Password")
+        }
+        else {
+            document.write("Incorrect Password")
+        }
+    </script>
+</body>
+
+</html>
