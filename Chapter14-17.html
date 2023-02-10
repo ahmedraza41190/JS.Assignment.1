@@ -11,10 +11,59 @@
 <body>
     <script>
 
+for (i = 0; i < 11; i++) {
+            document.write("Hello world</br>")
+        }
+
+
+
+        for (i = 1; i < 11; i++) {
+            document.write(i, "</br>")
+        }
+
+
+
+        var table = prompt("Enter Table Number")
+        var range = prompt("Enter Table Range")
+        for (i = 1; i <= range; i++) {
+            document.write(table + "x" + i + "=" + i * table + "</br>")
+        }
+
+
+
+        var arr = ["Nokia", "Samsung", "Q-Mobile", "Apple", "Sony"]
+        arr.push("Huwawe")
+        var r = arr.sort()
+        for (i = 0; i < arr.length; i++) {
+            document.write(r[i], "</br>")
+        }
+
+
+
+        var fruits = ["Strawbery", "Orange", "Apple", "Banana", "Watermelon"]
+        var r = fruits.sort()
+        for (i = 0; i < fruits.length; i++) {
+            document.write(r[i], "</br>")
+        }
+
+
+
+        var fruits = [rr]
+        var rr = prompt("Enter value")
+        for (i = 0; i < 10; i++) {
+            document.write(fruits[i], "</br>")
+        }
+
+
+
+        for (i = 1; i <= 15; i++) {
+            document.write(i, "</br>")
+        }
+
         var arr = []
 
 
-        var arr = ["Meraj", "Ali", "Junaid", "Wahaj", "Kariz", "Kamil"]
+        var arr = ["Ahmed", "Raza", "Inshal", "saeed", "Mustafa", "Rauf"]
 
 
 
@@ -32,14 +81,14 @@
         document.write(r)
 
 
-        var arr = ["Ali", "Meraj", "Daniyal"]
-        var arr2 = ["400", "299", "322"]
+        var arr = ["Saeed", "Ahmed", "Rauf"]
+        var arr2 = ["400", "363", "322"]
         var total = arr2[0] / 500 * 100
         var total2 = arr2[1] / 500 * 100
         var total3 = arr2[2] / 500 * 100
-        document.write("Score of Ali is: " + arr2[0] + " Percentage is: " + total + "</br>")
-        document.write("Score of Meraj is: " + arr2[1] + " Percentage is: " + total2 + "</br>")
-        document.write("Score of Daniyal is: " + arr2[2] + " Percentage is: " + total3 + "</br>")
+        document.write("Score of Saeed is: " + arr2[0] + " Percentage is: " + total + "</br>")
+        document.write("Score of Ahmed is: " + arr2[1] + " Percentage is: " + total2 + "</br>")
+        document.write("Score of Rauf is: " + arr2[2] + " Percentage is: " + total3 + "</br>")
 
 
 
@@ -60,6 +109,10 @@
         var fruits = [122, 324, 565, 563, 343, 453, 232]
         var r = fruits.sort(compare)
         document.write(r)
+
+        
+
+
     </script>
 </body>
 

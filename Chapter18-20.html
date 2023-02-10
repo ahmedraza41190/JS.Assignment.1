@@ -10,54 +10,58 @@
 
 <body>
     <script>
-        for (i = 0; i < 11; i++) {
-            document.write("Hello world</br>")
+
+        //  Assignment.1
+
+        for (var i = 1; i <= 10; i++) {
+
+            for (var j = 1; j <= i; j++) {
+                document.write("*", " ")
+            }
+            document.write("<br>")
         }
 
+        // Assignment.2
 
+        for (var i = 0; i <= 9; i++) {
 
-        for (i = 1; i < 11; i++) {
-            document.write(i, "</br>")
+            for (var j = 0; j <= i; j++) {
+                document.write(i, " ")
+            }
+            document.write("<br>")
         }
 
+        // Assignment.3
 
 
-        var table = prompt("Enter Table Number")
-        var range = prompt("Enter Range")
-        for (i = 1; i <= range; i++) {
-            document.write(table + "x" + i + "=" + i * table + "</br>")
+for (var i = 1; i <= 5; i++) {
+    for (var j = i; j <= 5; j++){
+        document.write("&nbsp;&nbsp;")
+    }
+    for(var k=1; k<=i;k++){
+        document.write("*")
+
+    }
+        for (var j = 1; j <= i; j++) {
+            document.write("*")
         }
+        document.write("<br>")
+}
+for (var i = 0; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
+        document.write("&nbsp;&nbsp;")
+    }
+    for (j = i; j <= 5; j++) {
+        document.write("*")
+    }
+    for (j = i; j <= 5; j++) {
+        document.write("*")
+    }
+    document.write("<br>")
+}
 
 
 
-        var arr = ["Nokia", "Samsung", "Q-Mobile", "Apple", "Sony"]
-        arr.push("Huwawe")
-        var r = arr.sort()
-        for (i = 0; i < arr.length; i++) {
-            document.write(r[i], "</br>")
-        }
-
-
-
-        var fruits = ["Strawbery", "Orange", "Apple", "Banana", "Watermelon"]
-        var r = fruits.sort()
-        for (i = 0; i < fruits.length; i++) {
-            document.write(r[i], "</br>")
-        }
-
-
-
-        var fruits = [rr]
-        var rr = prompt("Enter value")
-        for (i = 0; i < 10; i++) {
-            document.write(fruits[i], "</br>")
-        }
-
-
-
-        for (i = 1; i <= 15; i++) {
-            document.write(i, "</br>")
-        }
     </script>
 </body>
 
